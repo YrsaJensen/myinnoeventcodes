@@ -100,9 +100,10 @@ moodscaleButton.addEventListener('click', function() {
 					title : "Moodscale"
 				});
 
-				Titanium.UI.currentWindow.open(win4, {
-					animated : true
-				});
+				//Titanium.UI.currentWindow.open(win4, {
+					//animated : true
+				//});
+				win4.open();
 	
 });
 

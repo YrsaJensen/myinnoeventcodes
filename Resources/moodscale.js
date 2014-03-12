@@ -20,7 +20,7 @@ var win = Ti.UI.createWindow({
 		bottom:0,
 		left: 0,
 		backgroundColor: '#68da80',
-		font : { fontSize: '30' }
+		font : { fontSize: '50' }
 	});
 	
 	mood10.addEventListener('click',function(e){
@@ -45,7 +45,24 @@ var win = Ti.UI.createWindow({
 		width:186,
 		bottom:0,
 		left: 186,
-		backgroundColor: '#93da68'
+		backgroundColor: '#93da68',
+		font : { fontSize: '50' }
+	});
+	
+	mood9.addEventListener('click',function(e){
+    	// Create an ImageView.
+		var mood9img = Ti.UI.createImageView({
+			image : 'images/mood9.png',
+			width : 100,
+			height : 100,
+			top : 300,
+			left: 700
+		});
+		mood9img.addEventListener('load', function() {
+			Ti.API.info('Image loaded!');
+		});
+		// Add to the view.
+		win.add(mood9img);
 	});
 	var mood8 = Titanium.UI.createButton({
 		title:'8',
@@ -55,6 +72,23 @@ var win = Ti.UI.createWindow({
 		left: 372,
 		backgroundColor: '#a6da68'
 	});
+	
+	mood8.addEventListener('click',function(e){
+    	// Create an ImageView.
+		var mood8img = Ti.UI.createImageView({
+			image : 'images/mood8.png',
+			width : 100,
+			height : 100,
+			top : 300,
+			left: 700
+		});
+		mood8img.addEventListener('load', function() {
+			Ti.API.info('Image loaded!');
+		});
+		// Add to the view.
+		win.add(mood8img);
+	});
+	
 	var mood7 = Titanium.UI.createButton({
 		title:'7',
 		height:200,
@@ -62,6 +96,22 @@ var win = Ti.UI.createWindow({
 		bottom:0,
 		left: 558,
 		backgroundColor: '#beda68'
+	});
+	
+	mood7.addEventListener('click',function(e){
+    	// Create an ImageView.
+		var mood7img = Ti.UI.createImageView({
+			image : 'images/mood7.png',
+			width : 100,
+			height : 100,
+			top : 300,
+			left: 700
+		});
+		mood7img.addEventListener('load', function() {
+			Ti.API.info('Image loaded!');
+		});
+		// Add to the view.
+		win.add(mood7img);
 	});
 	var mood6 = Titanium.UI.createButton({
 		title:'6',
@@ -71,6 +121,21 @@ var win = Ti.UI.createWindow({
 		left: 744,
 		backgroundColor: '#dad968'
 	});
+	mood6.addEventListener('click',function(e){
+    	// Create an ImageView.
+		var mood6img = Ti.UI.createImageView({
+			image : 'images/mood6.png',
+			width : 100,
+			height : 100,
+			top : 300,
+			left: 700
+		});
+		mood6img.addEventListener('load', function() {
+			Ti.API.info('Image loaded!');
+		});
+		// Add to the view.
+		win.add(mood6img);
+	});
 	var mood5 = Titanium.UI.createButton({
 		title:'5',
 		height:200,
@@ -78,6 +143,21 @@ var win = Ti.UI.createWindow({
 		bottom:0,
 		left: 930,
 		backgroundColor: '#dac668'
+	});
+	mood5.addEventListener('click',function(e){
+    	// Create an ImageView.
+		var mood5img = Ti.UI.createImageView({
+			image : 'images/mood5.png',
+			width : 100,
+			height : 100,
+			top : 300,
+			left: 700
+		});
+		mood5img.addEventListener('load', function() {
+			Ti.API.info('Image loaded!');
+		});
+		// Add to the view.
+		win.add(mood5img);
 	});
 	var mood4 = Titanium.UI.createButton({
 		title:'4',
@@ -87,6 +167,21 @@ var win = Ti.UI.createWindow({
 		left: 1116,
 		backgroundColor: '#dab068'
 	});
+	mood4.addEventListener('click',function(e){
+    	// Create an ImageView.
+		var mood4img = Ti.UI.createImageView({
+			image : 'images/mood4.png',
+			width : 100,
+			height : 100,
+			top : 300,
+			left: 700
+		});
+		mood4img.addEventListener('load', function() {
+			Ti.API.info('Image loaded!');
+		});
+		// Add to the view.
+		win.add(mood4img);
+	});
 	var mood3 = Titanium.UI.createButton({
 		title:'3',
 		height:200,
@@ -95,7 +190,21 @@ var win = Ti.UI.createWindow({
 		left: 1302,
 		backgroundColor: '#da9e68'
 	});
-	
+	mood3.addEventListener('click',function(e){
+    	// Create an ImageView.
+		var mood3img = Ti.UI.createImageView({
+			image : 'images/mood3.png',
+			width : 100,
+			height : 100,
+			top : 300,
+			left: 700
+		});
+		mood3img.addEventListener('load', function() {
+			Ti.API.info('Image loaded!');
+		});
+		// Add to the view.
+		win.add(mood3img);
+	});
 	var mood2 = Titanium.UI.createButton({
 		title:'2',
 		height:200,
@@ -104,7 +213,21 @@ var win = Ti.UI.createWindow({
 		left: 1488,
 		backgroundColor: '#da9368'
 	});
-	
+	mood2.addEventListener('click',function(e){
+    	// Create an ImageView.
+		var mood2img = Ti.UI.createImageView({
+			image : 'images/mood2.png',
+			width : 100,
+			height : 100,
+			top : 300,
+			left: 700
+		});
+		mood2img.addEventListener('load', function() {
+			Ti.API.info('Image loaded!');
+		});
+		// Add to the view.
+		win.add(mood2img);
+	});
 	var mood1 = Titanium.UI.createButton({
 		title:'1',
 		height:200,
@@ -113,6 +236,21 @@ var win = Ti.UI.createWindow({
 		left: 1674,
 		backgroundColor: '#da8668'
 	});
+	mood1.addEventListener('click',function(e){
+    	// Create an ImageView.
+		var mood1img = Ti.UI.createImageView({
+			image : 'images/mood1.png',
+			width : 100,
+			height : 100,
+			top : 300,
+			left: 700
+		});
+		mood1img.addEventListener('load', function() {
+			Ti.API.info('Image loaded!');
+		});
+		// Add to the view.
+		win.add(mood1img);
+	});
 	var mood0 = Titanium.UI.createButton({
 		title:'0',
 		height:200,
@@ -120,6 +258,21 @@ var win = Ti.UI.createWindow({
 		bottom:0,
 		left: 1860,
 		backgroundColor: '#da6868'
+	});
+	mood0.addEventListener('click',function(e){
+    	// Create an ImageView.
+		var mood0img = Ti.UI.createImageView({
+			image : 'images/mood0.png',
+			width : 100,
+			height : 100,
+			top : 300,
+			left: 700
+		});
+		mood0img.addEventListener('load', function() {
+			Ti.API.info('Image loaded!');
+		});
+		// Add to the view.
+		win.add(mood0img);
 	});
 	
 	var image = Ti.UI.createImageView({
